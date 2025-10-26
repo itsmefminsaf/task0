@@ -1,7 +1,21 @@
 @import "tailwindcss";
 
+@theme {
+  --animate-load: load 1s linear infinite;
+}
+
 @layer components {
   .center {
     @apply flex items-center justify-center;
+  }
+}
+
+@keyframes load {
+  from {
+    background-position: 0;
+  }
+
+  to {
+    background-position: 200;
   }
 }

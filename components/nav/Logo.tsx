@@ -3,7 +3,7 @@ import logo from "@/assets/task0.png";
 
 const Logo = () => {
   return (
-    <div className="center gap-1 pl-8">
+    <div className="center gap-1 pl-8 justify-self-start">
       <Image
         src={logo.src}
         alt="Logo of Task zero"
