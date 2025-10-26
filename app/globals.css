@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --color-tiffany-blue: #51b8a0;
-  --color-azure: #d6e5e3;
-  --color-french-gray: #cacfd6;
-}
-
 @layer components {
   .center {
     @apply flex items-center justify-center;

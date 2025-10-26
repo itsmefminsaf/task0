@@ -16,7 +16,7 @@ const roboto = Roboto({ subsets: ["latin"], weight: ["400", "600", "800"] });
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <html>
-      <body className={`bg-azure text-shadow-neutral-800 ${roboto.className}`}>
+      <body className={`bg-neutral-900 text-neutral-200 text-shadow-neutral-800 ${roboto.className}`}>
         <Nav />
         {children}
       </body>
