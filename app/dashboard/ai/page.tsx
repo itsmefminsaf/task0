@@ -7,7 +7,7 @@ const AIDashboardPage = async () => {
 
   if (!session || !session.user) return redirect("/auth/login");
 
-  return <AIChat />;
+  return <AIChat email={session.user.email!} />;
 };
 
 export default AIDashboardPage;
